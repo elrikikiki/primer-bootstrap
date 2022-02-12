@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="features.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilaco.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/features/">
     <link rel="shortcut icon" href="assets/favicon_2.ico" type="image/x-icon">
     
@@ -49,11 +49,11 @@
             </a>
     
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.html" class="nav-link px-2 text-secondary">Inicio</a></li>
-              <li><a href="nosotros.html" class="nav-link px-2 text-white">Nosotros</a></li>
-              <li><a href="edificios.html" class="nav-link px-2 text-white">Edificios</a></li>
-              <li><a href="consultas.html" class="nav-link px-2 text-white">Consulta</a></li>
-              <li><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+              <li><a href="index.html" class="nav-link px-2 text-secondary mouseHeader">Inicio</a></li>
+              <li><a href="nosotros.html" class="nav-link px-2 text-white mouseHeader">Nosotros</a></li>
+              <li><a href="edificios.html" class="nav-link px-2 text-white mouseHeader">Edificios</a></li>
+              <li><a href="consultas.html" class="nav-link px-2 text-white mouseHeader">Consulta</a></li>
+              <li><a href="contacto.html" class="nav-link px-2 text-white mouseHeader">Contacto</a></li>
             </ul>
     
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
@@ -63,8 +63,8 @@
         </div>
     </header>
     </div>
-
-   <nav>
+    
+   <nav class="bg-light">
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="bootstrap" viewBox="0 0 118 94">
         <title>Bootstrap</title>
@@ -126,7 +126,7 @@
 
     <div class="container px-4 py-5" id="custom-cards">
     
-      <h1 class="pb-2 border-bottom">GRUPO DEVEL</h1>
+      <h1 class="pb-2 border-bottom titulo">GRUPO DEVEL</h1>
     
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
@@ -134,7 +134,7 @@
             <a href="nosotros.html">
             <img src="https://fundacioncompartir.org/sites/default/files/styles/slick_600x320/public/estudio-revelo-donde-esta-el-mayor-numero-de-arquitectos-en-colombia.jpg?itok=BiX5GknY" height="220" alt="arquitectos">
             </a>
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <a href="nosotros.html" class="text-decoration-none text-white">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">¿Quiénes somos?</h2>
               </a>
@@ -203,7 +203,7 @@
   
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-shadow-1 rounded-5 shadow-lg">
+          <div class="card card-cover h-100 overflow-hidden text-shadow-1 rounded-5 shadow-lg mouseEdificio">
             <a href="edificios.html">
             <img src="https://media-cdn.tripadvisor.com/media/vr-splice-j/02/23/42/5d.jpg" width="410" height="270" alt="Edificio">
           </a>
@@ -231,7 +231,7 @@
             <a href="edificios.html">
             <img src="https://www.grupoedisur.com.ar/web/cms/front-end/files/2290_emprendimiento_manantiales-country_04.jpg" height="270" alt="Casas en Manantiales">
             </a>
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 mouseEdificio">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Manantiales, tu casa soñada.</h2>
               <ul class="d-flex list-unstyled mt-auto">
                 <li class="d-flex align-items-center me-3">
@@ -250,9 +250,9 @@
         </div>
   
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-shadow-1 rounded-5 shadow-lg">
+          <div class="card card-cover h-100 overflow-hidden text-shadow-1 rounded-5 shadow-lg mouseEdificio">
             <a href="edificios.html">
-            <img src="https://www.construyehogar.com/wp-content/uploads/2014/02/Decoraci%C3%B3n-de-apartamento-en-edificio-de-la-ciudad.jpg" height="270" alt="Edificio Quo">
+            <img class="edificiosImagen" src="https://www.construyehogar.com/wp-content/uploads/2014/02/Decoraci%C3%B3n-de-apartamento-en-edificio-de-la-ciudad.jpg" height="270" alt="Edificio Quo">
             </a>
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Edificio Quo, un departamento hecho para vos.</h2>
@@ -278,11 +278,11 @@
    </main>
           <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-            <li class="nav-item"><a href="nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
-            <li class="nav-item"><a href="edificios.html" class="nav-link px-2 text-muted">Edificios</a></li>
-            <li class="nav-item"><a href="consultas.html" class="nav-link px-2 text-muted">Consulta</a></li>
-            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted mouseFooter">Inicio</a></li>
+            <li class="nav-item"><a href="nosotros.html" class="nav-link px-2 text-muted mouseFooter">Nosotros</a></li>
+            <li class="nav-item"><a href="edificios.html" class="nav-link px-2 text-muted mouseFooter">Edificios</a></li>
+            <li class="nav-item"><a href="consultas.html" class="nav-link px-2 text-muted mouseFooter">Consulta</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted mouseFooter">Contacto</a></li>
           </ul>
           <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
         </footer>
